@@ -1,0 +1,77 @@
+
+.formulario form {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) );*/
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+}
+
+.form-tipo {
+grid-row: 1 / auto;
+}
+
+.form-id {
+grid-row: 1 / auto;
+}
+
+.form-name {
+grid-row: 2 / auto;
+}
+
+.form-nasci {
+grid-row: 2 / auto;
+}
+
+.form-tel {
+grid-row: 3 / auto;
+}
+
+.form-cel {
+grid-row: 3 / auto;
+}
+
+.form-cep {
+grid-row: 4 / auto;
+}
+
+.form-cit {
+grid-row: 4 / auto;
+}
+
+.form-bairro {
+grid-row: 5 / auto;
+}
+
+.form-rua {
+grid-row: 5 / auto;
+}
+
+.form-num {
+grid-row: 5 / auto;
+}
+
+.form-complemento {
+grid-row: 6 / auto;
+grid-column: 1 / 3;
+}
+
+.form-pesq {
+grid-row: 7 / auto;
+}
+
+.form-boton {
+grid-row: 7 / auto;
+
+display: flex;
+align-items: flex-end;
+}
+
+.form-boton input {
+grid-row: 2 / auto;
+}
+
+
+
+.formulario form div {
+    display: grid;
+}

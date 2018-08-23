@@ -1,0 +1,175 @@
+
+
+
+html {
+	width: 100%;
+	height: 100%;
+
+}
+
+* {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;  
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url("../img/fundo.png");
+
+
+}
+
+.container-principal {
+	width: 900px;
+	height: 100%;
+
+}
+
+.cabecario {
+	padding: 0px;
+	margin: 0px;
+	background: #FFFFFF;
+	border-bottom: 3px solid #E8E8E8;
+}
+
+
+
+.cab-title {
+	text-align: left;
+	justify-content: left;
+}
+
+.cab-title h1 {
+	color: #DAA520;
+	font-family: 'Lora', serif;
+	font-size: 25px;
+	line-height: 18px;
+	padding-top: 25px;
+	list-style-type: none;
+	font-weight: normal;
+}
+
+.cab-title b {
+	font-size: 11px;
+	font-family: 'Open Sans', sans-serif;
+	color: #4F4F4F;
+
+}
+
+
+.boton input, .cab-boton input, .buton-pesq {
+	background-color: #E8E8E8; 
+	border: none;
+	color: #4F4F4F;
+	padding: 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+    width: 60px;
+    height: 23px;
+
+	font-weight: bold;
+
+}
+
+.conteudo-principal {
+	align-items: normal;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 60px;
+	background: #F5F5F5;
+
+}
+
+.conteudo-interno {
+	align-items: normal;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 30px;
+	background: #F5F5F5;
+	text-align: left;
+	padding-right: 50px;
+	padding-left: 50px;
+
+
+}
+
+.informe {
+	padding: 0px;
+	margin: 0px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #BEBEBE;
+
+}
+
+.inf-log {
+	    justify-content: flex-end;
+	    margin-right: 15px; 
+}
+
+.cab-title h2 {
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	font-weight: normal;
+
+}
+
+
+
+.menu-boton{
+	    font-family: 'Open Sans', sans-serif;
+background-color: #F5F5F5;
+}
+
+.container-menu{
+    color: #231f1c;
+    background-color: #F5F5F5;
+}
+.container-interno {
+	    padding: 20px 16px;
+	    background: #FFFFFF;
+	    height: 85%;
+	    font-family: 'Open Sans', sans-serif;
+border: 1px solid #BEBEBE;
+
+}
+
+.conteudo-menu {
+	align-items: normal;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 60px;
+	background: #F5F5F5;
+}
+
+.cont-ico a {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 70px;
+	width: 70px;
+	margin-left:  15px;
+	margin-right: 15px;
+	box-shadow: 0px 0px 11px 1px #BEBEBE;
+	background: #FFFFFF;
+
+}
+
+.cont-ico h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: #4F4F4F;
+	font-weight: bold;
+}
+
+.logo_social {
+	padding-left: 20px;
+	padding-right: 20px;
+}

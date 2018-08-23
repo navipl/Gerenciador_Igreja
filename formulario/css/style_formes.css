@@ -1,0 +1,49 @@
+﻿.formulario {
+    overflow : auto;
+    margin : 0px;
+    padding : 0px;
+}
+
+
+.form-geral label {
+    margin : 0px;
+    padding : 0px;
+
+    font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.form-id input, .form-tipo select, .form-id input, .form-name input, .form-nasci input, .form-tel input, .form-cel input, .form-cep input, .form-cit input, .form-bairro input, .form-rua input, .form-num input, .form-complemento input, .form-pesq input  {
+    margin : 0px;
+    padding : 0px;
+    padding-left: 3px;
+
+    border-radius: 6px;
+    border: 1px solid #5ca47a;
+
+    height: 25px;
+
+    background-color: #F5F5F5; 
+
+    font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.form-tipo select, .form-nasci input {
+width: 150px;
+}
+
+.form-num input, .form-id input {
+	width: 80px;
+}
+
+.form-boton input {
+	height: 25px;
+	width: 25px;
+
+}
+
+
+
+

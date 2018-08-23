@@ -1,0 +1,145 @@
+
+.alinhar {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+
+	-ms-align-items: center;
+	-ms-display: flex;
+	-ms-flex-direction: row;
+	-ms-flex-wrap: wrap;
+	-ms-justify-content: center;
+}
+
+.container-principal {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 119px 55px 1fr;
+	/*grid-row-gap: 10px;*/
+
+	-ms-display: grid;
+	-ms-grid-template-columns: 1fr;
+	-ms-grid-template-rows: 119px 55px 1fr;
+}
+
+.cabecario {
+	grid-column: 1 / 2;
+	grid-row: 1 / 1;
+
+	display: grid;
+	grid-template-columns: 170px 1fr 170px;
+	grid-auto-rows: 1fr;
+
+	-ms-grid-column: 1 / 2;
+	-ms-grid-row: 1 / 1;
+
+	-ms-display: grid;
+	-ms-grid-template-columns: 170px 1fr 170fr;
+	-ms-grid-auto-rows: 1fr;
+}
+
+
+.cab-logo {
+	grid-column: 1 / 2;
+
+	-ms-grid-column: 1 / 2;
+}
+
+.cab-title {
+	grid-column: 2 / 3;
+
+	-ms-grid-column: 2 / 3;
+}
+
+.cab-boton {
+	grid-column: 3 / 4;
+
+	-ms-grid-column: 3 / 4;
+}
+
+.conteudo-principal {
+	grid-column: 1 / 2;
+	grid-row: 2 / 5;
+
+	display: grid;
+	grid-template-columns: repeat(6, 100px);
+	grid-column-gap: 1.5em;
+	grid-template-rows: repeat(2, 115px);
+	grid-row-gap: 1.5em;
+
+	-ms-grid-column: 1 / 2;
+	-ms-grid-row: 2 / 5;
+
+	-ms-display: grid;
+	-ms-grid-template-columns: repeat(6, 100px);
+	-ms-grid-column-gap: 1.5em;
+	-ms-grid-template-rows: repeat(2, 115px);
+	-ms-grid-row-gap: 1.5em;
+}
+
+.conteudo-interno {
+	grid-column: 1 / 2;
+	grid-row: 3 / 5;
+
+	-ms-grid-column: 1 / 2;
+	-ms-grid-row: 3 / 5;
+}
+
+.informe {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+
+	display: grid;
+	grid-template-columns: 95px 1fr 170px ;
+	grid-auto-rows: 1fr;
+
+	-ms-grid-column: 1 / 2;
+	-ms-grid-row: 2 / 3;
+
+	-ms-display: grid;
+	-ms-grid-template-columns: 95px 1fr 170fr;
+	-ms-grid-auto-rows: 1fr;
+}
+
+.cont-ico {
+	grid-template-columns: 1fr;
+	grid-template-rows: 3fr 1fr;
+	display: inline-grid;
+
+	-ms-grid-template-columns: 1fr;
+	-ms-grid-template-rows: 3fr 1fr;
+	-ms-display: inline-grid;
+}
+
+.cont-ico a {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	-ms-display: flex;
+	-ms-flex-direction: row;
+	-ms-flex-wrap: wrap;
+}
+
+.container-interno {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-column-gap: 1em;
+    grid-auto-rows: 1fr;
+    -ms-display: grid;
+    -ms-grid-template-columns: 1fr 6fr;
+    -ms-grid-auto-rows: 1fr;
+}
+
+.container-opc {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+
+    -ms-display: grid;
+    -ms-grid-template-columns: 1fr;
+    -ms-grid-template-rows: repeat(5, 1fr);
+}
